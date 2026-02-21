@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Profile</title>
+<style>
+.box {
+  width: 300px;
+  border: 4px solid black;
+  padding: 20px;
+  text-align: center;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  object-fit: cover;
+}
+
+.line {
+  border-bottom: 2px solid black;
+  margin-bottom: 20px;
+  padding-bottom: 5px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="box">
+  <h3>HTML</h3>
+
+  <!-- Paste Base64 image below -->
+  <img src="Screenshot_2026-02-21-21-59-24-63.jpg" alt="Profile Picture">
+
+  <p>Name</p>
+  <div class="line">De veyra, Mhac jade L.</div>
+
+  <p>Course</p>
+  <div class="line">Bachelor of Science in Computer Science</div>
+
+  <p>Section</p>
+  <div class="line">1-B</div>
+
+  <p>BIT Info</p>
+  <div class="line">
+    A Bachelor of Information Technology is a degree program that trains 
+    students in programming, computer systems, networking, and software 
+    development for careers in the tech field.
+  </div>
+
+</div>
+
+</body>
+</html>
